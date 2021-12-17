@@ -5,7 +5,7 @@ let damage_battery=document.getElementById('damage_battery');
 let damage_bat=document.getElementById('damage_bat');
 let dama_top=document.getElementById('dama_top');
 let gree=document.getElementById('gree');
-console.log(color);
+
 charg.addEventListener('click',()=>{
 Array.from(color).forEach(Element=>{
   Element.classList.add('play');
